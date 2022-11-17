@@ -1,0 +1,21 @@
+app:
+  port: 8000
+
+db:
+  driver: "mssql"
+  host: "sql-privilege-az-asse-dev-001.database.windows.net"
+  username: "sqladmin"
+  password: "A&2usnz&909f3YtmP@l3"
+  database: "DEV-PRIVDB"
+  maxLifeTime: 3
+  maxOpenConns: 10
+  maxIdleConns: 10
+
+redis:
+  host: "localhost"
+  port: "6379"
+  password: "XV!(y9yQUKVCa2xc"
+  maxLifeTimeData: 1
+
+jwt:
+  jwtSecret: "3YZDr9gwBqnSysG8vWC6c@dTf"
